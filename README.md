@@ -1,1 +1,2 @@
 # machine-learning-final-project
+An end-to-end machine learning pipeline for water leakage detection from multi-sensor time-series data. The pipeline performs automated label extraction from filename conventions, per-sensor CSV ingestion and merging, and temporal aggregation into 0.1-second windows producing statistical features (mean, min, max per interval). The resulting structured dataset is used to train classifiers distinguishing between normal and leakage operational states.
